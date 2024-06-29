@@ -1,54 +1,71 @@
 <template>
   <div>
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
-          <div class="col-xl-11 d-flex align-items-center justify-content-between">
+          <div
+            class="col-xl-11 d-flex align-items-center justify-content-between"
+          >
             <!-- <h1 class="logo"><a href="index.html">BizPage</a></h1> -->
             <!-- Uncomment below if you prefer to use an image logo -->
-            <a href="/" class="logo">
-              <img src="/logo-final.svg" alt="logo" class="img-fluid" width="100" />
+            <a
+              href="/"
+              class="logo"
+            >
+              <img
+                src="/logo-final.svg"
+                alt="logo"
+                class="img-fluid"
+                width="100"
+              />
             </a>
 
-            <!-- <nav id="navbar" class="navbar">
+            <nav
+              id="navbar"
+              class="navbar"
+            >
               <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                <li><a class="nav-link" href="blog.html">Blog</a></li>
-                <li class="dropdown">
-                  <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                    <li><a href="#">Drop Down 1</a></li>
-                    <li class="dropdown">
-                      <a href="#"
-                        ><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i
-                      ></a>
-                      <ul>
-                        <li><a href="#">Deep Drop Down 1</a></li>
-                        <li><a href="#">Deep Drop Down 2</a></li>
-                        <li><a href="#">Deep Drop Down 3</a></li>
-                        <li><a href="#">Deep Drop Down 4</a></li>
-                        <li><a href="#">Deep Drop Down 5</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="#">Drop Down 2</a></li>
-                    <li><a href="#">Drop Down 3</a></li>
-                    <li><a href="#">Drop Down 4</a></li>
-                  </ul>
+                <li>
+                  <a
+                    class="nav-link"
+                    href="/"
+                    >Inicio</a
+                  >
                 </li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li>
+                  <a
+                    class="nav-link"
+                    href="/portfolio"
+                    >Portfolio</a
+                  >
+                </li>
+                <li
+                  ><a
+                    class="nav-link"
+                    href="/about-us"
+                    >Nosotros</a
+                  ></li
+                >
+                <li>
+                  <a
+                    class="nav-link"
+                    href="/contact"
+                    >Contacto</a
+                  >
+                </li>
               </ul>
               <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav> -->
+            </nav>
           </div>
         </div>
       </div>
     </header>
     <!-- End Header -->
+
     <!-- ======= Hero Section ======= -->
     <section id="hero">
       <div class="hero-container">
@@ -58,22 +75,31 @@
           data-bs-ride="carousel"
           data-bs-interval="5000"
         >
-          <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+          <ol
+            id="hero-carousel-indicators"
+            class="carousel-indicators"
+          ></ol>
 
-          <div class="carousel-inner" role="listbox">
+          <div
+            class="carousel-inner"
+            role="listbox"
+          >
             <div
               class="carousel-item active"
               style="background-image: url(/assets/img/hero-carousel/1.jpg)"
             >
               <div class="carousel-container">
                 <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">👨‍🔧 En construcción...</h2>
+                  <h2 class="animate__animated animate__fadeInDown">
+                    👨‍🔧 En construcción...
+                  </h2>
                   <p class="animate__animated animate__fadeInUp">
-                    Estamos trabajando duro para mejorar nuestra página web y ofrecerle una
-                    experiencia mejor. Estamos añadiendo nuevas características, actualizando el
-                    contenido y optimizando la navegación. Agradecemos su paciencia mientras
-                    realizamos estas mejoras. Por favor, vuelva pronto para ver nuestra página web
-                    completamente renovada.
+                    Estamos trabajando duro para mejorar nuestra página web y
+                    ofrecerle una experiencia mejor. Estamos añadiendo nuevas
+                    características, actualizando el contenido y optimizando la
+                    navegación. Agradecemos su paciencia mientras realizamos
+                    estas mejoras. Por favor, vuelva pronto para ver nuestra
+                    página web completamente renovada.
                   </p>
                   <a
                     target="_blank"
@@ -93,11 +119,15 @@
             >
               <div class="carousel-container">
                 <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
+                  <h2 class="animate__animated animate__fadeInDown">
+                    At vero eos et accusamus
+                  </h2>
                   <p class="animate__animated animate__fadeInUp">
-                    Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo
-                    minus id quod maxime placeat facere possimus, omnis voluptas assumenda est,
-                    omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.
+                    Nam libero tempore, cum soluta nobis est eligendi optio
+                    cumque nihil impedit quo minus id quod maxime placeat facere
+                    possimus, omnis voluptas assumenda est, omnis dolor
+                    repellendus. Temporibus autem quibusdam et aut officiis
+                    debitis aut.
                   </p>
                   <a
                     href="#featured-services"
@@ -114,12 +144,15 @@
             >
               <div class="carousel-container">
                 <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Temporibus autem quibusdam
+                  </h2>
                   <p class="animate__animated animate__fadeInUp">
-                    Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                    aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-                    ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem
-                    accusantium.
+                    Beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                    sed quia consequuntur magni dolores eos qui ratione
+                    voluptatem sequi nesciunt omnis iste natus error sit
+                    voluptatem accusantium.
                   </p>
                   <a
                     href="#featured-services"
@@ -136,12 +169,14 @@
             >
               <div class="carousel-container">
                 <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Nam libero tempore
+                  </h2>
                   <p class="animate__animated animate__fadeInUp">
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
-                    adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                    dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                    nostrum.
+                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
+                    amet, consectetur, adipisci velit, sed quia non numquam eius
+                    modi tempora incidunt ut labore et dolore magnam aliquam
+                    quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.
                   </p>
                   <a
                     href="#featured-services"
@@ -158,11 +193,14 @@
             >
               <div class="carousel-container">
                 <div class="container">
-                  <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
+                  <h2 class="animate__animated animate__fadeInDown">
+                    Magnam aliquam quaerat
+                  </h2>
                   <p class="animate__animated animate__fadeInUp">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
                   <a
                     href="#featured-services"
@@ -174,24 +212,330 @@
             </div>
           </div>
 
-          <a class="carousel-control-prev" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+          <a
+            class="carousel-control-prev"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bi bi-chevron-left"
+              aria-hidden="true"
+            ></span>
           </a>
 
-          <a class="carousel-control-next" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+          <a
+            class="carousel-control-next"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bi bi-chevron-right"
+              aria-hidden="true"
+            ></span>
           </a>
         </div>
       </div>
     </section>
     <!-- End Hero Section -->
+
+    <main id="main">
+      <!-- ======= About Us Section ======= -->
+      <section id="about">
+        <div class="container">
+          <header class="section-header">
+            <h3>Nosotros</h3>
+            <p
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.</p
+            >
+          </header>
+
+          <div class="row about-cols">
+            <div class="col-md-4">
+              <div class="about-col">
+                <div class="img">
+                  <img
+                    src="assets/img/about-mission.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                  <div class="icon"><i class="bi bi-bar-chart"></i></div>
+                </div>
+                <h2 class="title"><a href="#">Our Mission</a></h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
+                  tempor ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="about-col">
+                <div class="img">
+                  <img
+                    src="assets/img/about-plan.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                  <div class="icon"><i class="bi bi-brightness-high"></i></div>
+                </div>
+                <h2 class="title"><a href="#">Our Plan</a></h2>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                  illo inventore veritatis et quasi architecto beatae vitae
+                  dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="about-col">
+                <div class="img">
+                  <img
+                    src="assets/img/about-vision.jpg"
+                    alt=""
+                    class="img-fluid"
+                  />
+                  <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+                </div>
+                <h2 class="title"><a href="#">Our Vision</a></h2>
+                <p>
+                  Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
+                  fugit, sed quia magni dolores eos qui ratione voluptatem sequi
+                  nesciunt Neque porro quisquam est, qui dolorem ipsum quia
+                  dolor sit amet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div> </section
+      ><!-- End About Us Section -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services">
+        <div class="container">
+          <header class="section-header wow fadeInUp">
+            <h3>Servicios</h3>
+            <p
+              >Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
+              partiendo abhorreant vituperatoribus, ad pro quaestio laboramus.
+              Ei ubique vivendum pro. At ius nisl accusam lorenta zanos
+              paradigno tridexa panatarel.</p
+            >
+          </header>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 box">
+              <div class="icon"><i class="bi bi-briefcase"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description"
+                >Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditate non provident</p
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 box">
+              <div class="icon"><i class="bi bi-card-checklist"></i></div>
+              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <p class="description"
+                >Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat tarad limino ata</p
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 box">
+              <div class="icon"><i class="bi bi-bar-chart"></i></div>
+              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+              <p class="description"
+                >Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur</p
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 box">
+              <div class="icon"><i class="bi bi-binoculars"></i></div>
+              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <p class="description"
+                >Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum</p
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 box">
+              <div class="icon"><i class="bi bi-brightness-high"></i></div>
+              <h4 class="title"><a href="">Nemo Enim</a></h4>
+              <p class="description"
+                >At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                blanditiis praesentium voluptatum deleniti atque</p
+              >
+            </div>
+            <div class="col-lg-4 col-md-6 box">
+              <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <p class="description"
+                >Et harum quidem rerum facilis est et expedita distinctio. Nam
+                libero tempore, cum soluta nobis est eligendi</p
+              >
+            </div>
+          </div>
+        </div> </section
+      ><!-- End Services Section -->
+
+      <!-- ======= Call To Action Section ======= -->
+      <section id="call-to-action">
+        <div class="container text-center">
+          <h3>Call To Action</h3>
+          <p>
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
+          </p>
+          <a
+            class="cta-btn"
+            href="#"
+            >Call To Action</a
+          >
+        </div> </section
+      ><!-- End Call To Action Section -->
+
+      <!-- ======= Our Clients Section ======= -->
+      <section id="clients">
+        <div class="container">
+          <header class="section-header">
+            <h3>Nuestros clientes</h3>
+          </header>
+
+          <div class="clients-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-1.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-2.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-3.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-4.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-5.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-6.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-7.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+              <div class="swiper-slide"
+                ><img
+                  src="assets/img/clients/client-8.png"
+                  class="img-fluid"
+                  alt=""
+              /></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div> </section
+      ><!-- End Our Clients Section -->
+    </main>
   </div>
 </template>
 
 <script>
-export default {}
+  import '../assets/vendor/swiper/swiper-bundle.min.css';
+import '../assets/vendor/swiper/swiper-bundle.min.js';
+
+  export default {
+    mounted() {
+      new Swiper('.clients-slider', {
+        speed: 400,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 'auto',
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          480: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+          992: {
+            slidesPerView: 6,
+            spaceBetween: 20,
+          },
+        },
+      })
+    },
+  }
 </script>
 
 <style>
+  #clients {
+    padding: 60px 0;
+  }
 
+  #clients img {
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+
+  #clients img:hover {
+    opacity: 1;
+  }
+
+  #clients .swiper-pagination {
+    margin-top: 30px;
+    position: relative;
+  }
+
+  #clients .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #18d26e;
+  }
+
+  #clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #18d26e;
+  }
 </style>
