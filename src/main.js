@@ -4,12 +4,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 
-
-import 'swiper/css'
-import 'swiper/css/autoplay'
-import 'swiper/css/pagination'
-
-
 import './assets/vendor/animate.css/animate.min.css'
 import './assets/vendor/aos/aos.css'
 import './assets/vendor/bootstrap-icons/bootstrap-icons.css'
