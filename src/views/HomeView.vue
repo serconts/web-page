@@ -1,70 +1,5 @@
 <template>
   <div>
-    <!-- ======= Header ======= -->
-    <header
-      id="header"
-      class="fixed-top d-flex align-items-center header-transparent"
-    >
-      <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
-          <div
-            class="col-xl-11 d-flex align-items-center justify-content-between"
-          >
-            <!-- <h1 class="logo"><a href="index.html">BizPage</a></h1> -->
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <a
-              href="/"
-              class="logo"
-            >
-              <img
-                src="/logo-final.svg"
-                alt="logo"
-                class="img-fluid"
-                width="100"
-              />
-            </a>
-
-            <nav
-              id="navbar"
-              class="navbar"
-            >
-              <ul>
-                <li>
-                  <a
-                    class="nav-link"
-                    href="/"
-                    >Inicio</a
-                  >
-                </li>
-                <li>
-                  <a
-                    class="nav-link"
-                    href="/portfolio"
-                    >Portfolio</a
-                  >
-                </li>
-                <li
-                  ><a
-                    class="nav-link"
-                    href="/about-us"
-                    >Nosotros</a
-                  ></li
-                >
-                <li>
-                  <a
-                    class="nav-link"
-                    href="/contact"
-                    >Contacto</a
-                  >
-                </li>
-              </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
@@ -239,82 +174,7 @@
     <!-- End Hero Section -->
 
     <main id="main">
-      <!-- ======= About Us Section ======= -->
-      <section id="about">
-        <div class="container">
-          <header class="section-header">
-            <h3>Nosotros</h3>
-            <p
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.</p
-            >
-          </header>
 
-          <div class="row about-cols">
-            <div class="col-md-4">
-              <div class="about-col">
-                <div class="img">
-                  <img
-                    src="/assets/img/about-mission.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                  <div class="icon"><i class="bi bi-bar-chart"></i></div>
-                </div>
-                <h2 class="title"><a href="#">Our Mission</a></h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod
-                  tempor ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="about-col">
-                <div class="img">
-                  <img
-                    src="/assets/img/about-plan.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                  <div class="icon"><i class="bi bi-brightness-high"></i></div>
-                </div>
-                <h2 class="title"><a href="#">Our Plan</a></h2>
-                <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                  illo inventore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="about-col">
-                <div class="img">
-                  <img
-                    src="/assets/img/about-vision.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                  <div class="icon"><i class="bi bi-calendar4-week"></i></div>
-                </div>
-                <h2 class="title"><a href="#">Our Vision</a></h2>
-                <p>
-                  Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
-                  fugit, sed quia magni dolores eos qui ratione voluptatem sequi
-                  nesciunt Neque porro quisquam est, qui dolorem ipsum quia
-                  dolor sit amet.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> </section
-      ><!-- End About Us Section -->
 
       <!-- ======= Services Section ======= -->
       <section id="services">
@@ -467,8 +327,6 @@
 </template>
 
 <script>
-  import '../assets/vendor/swiper/swiper-bundle.min.css';
-import '../assets/vendor/swiper/swiper-bundle.min.js';
 
   export default {
     mounted() {

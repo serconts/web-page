@@ -12,6 +12,10 @@ import './assets/vendor/glightbox/css/glightbox.min.css'
 
 import './assets/css/style.css'
 
+
+import './assets/vendor/swiper/swiper-bundle.min.css'
+import './assets/vendor/swiper/swiper-bundle.min.js'
+
 const app = createApp(App)
 
 app.use(createPinia())

@@ -1,9 +1,15 @@
 <template>
-  <div>
+  <DefaultLayout>
     <RouterView />
-  </div>
+  </DefaultLayout>
 </template>
 
 <script>
-export default {}
+import DefaultLayout from './layouts/DefaultLayout.vue';
+
+export default {
+  components: {
+    DefaultLayout
+  }
+}
 </script>
