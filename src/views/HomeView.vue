@@ -257,7 +257,7 @@
               <div class="about-col">
                 <div class="img">
                   <img
-                    src="assets/img/about-mission.jpg"
+                    src="/assets/img/about-mission.jpg"
                     alt=""
                     class="img-fluid"
                   />
@@ -277,7 +277,7 @@
               <div class="about-col">
                 <div class="img">
                   <img
-                    src="assets/img/about-plan.jpg"
+                    src="/assets/img/about-plan.jpg"
                     alt=""
                     class="img-fluid"
                   />
@@ -297,7 +297,7 @@
               <div class="about-col">
                 <div class="img">
                   <img
-                    src="assets/img/about-vision.jpg"
+                    src="/assets/img/about-vision.jpg"
                     alt=""
                     class="img-fluid"
                   />
@@ -411,49 +411,49 @@
             <div class="swiper-wrapper align-items-center">
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-1.png"
+                  src="/assets/img/clients/client-1.png"
                   class="img-fluid"
                   alt=""
               /></div>
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-2.png"
+                  src="/assets/img/clients/client-2.png"
                   class="img-fluid"
                   alt=""
               /></div>
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-3.png"
+                  src="/assets/img/clients/client-3.png"
                   class="img-fluid"
                   alt=""
               /></div>
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-4.png"
+                  src="/assets/img/clients/client-4.png"
                   class="img-fluid"
                   alt=""
               /></div>
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-5.png"
+                  src="/assets/img/clients/client-5.png"
                   class="img-fluid"
                   alt=""
               /></div>
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-6.png"
+                  src="/assets/img/clients/client-6.png"
                   class="img-fluid"
                   alt=""
               /></div>
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-7.png"
+                  src="/assets/img/clients/client-7.png"
                   class="img-fluid"
                   alt=""
               /></div>
               <div class="swiper-slide"
                 ><img
-                  src="assets/img/clients/client-8.png"
+                  src="/assets/img/clients/client-8.png"
                   class="img-fluid"
                   alt=""
               /></div>
