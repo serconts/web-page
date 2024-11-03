@@ -1,7 +1,10 @@
 <template>
   <div class="layout">
     <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top d-flex align-items-center ">
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center"
+    >
       <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
           <div
@@ -66,42 +69,37 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-6 footer-info">
-              <img
-                src="/logo-final.svg"
-                alt="logo"
-                class="img-fluid mb-3"
-                width="180"
-              />
-              <p
-                >
-                Soluciones efectivas para proyectos con enfoque en gestión de riesgos de desastres
-
-                Impulsamos soluciones efectivas para la gestión del riesgo de desastres, protegiendo comunidades y fortaleciendo proyectos.
-              </p
-              >
+              <div class="serconts-footer-presentacion">
+                <img
+                  src="/logo-final.svg"
+                  alt="logo"
+                  class="img-fluid mb-3"
+                  width="180"
+                />
+                <h1>
+                  Soluciones efectivas para proyectos con enfoque en gestión de
+                  riesgos de desastres
+                </h1>
+                <p>
+                  Impulsamos soluciones efectivas para la gestión del riesgo de
+                  desastres, protegiendo comunidades y fortaleciendo proyectos.
+                </p>
+              </div>
             </div>
 
             <div class="col-lg-4 col-md-6 footer-links">
-              <h4>Useful Links</h4>
+              <h4>Enlaces</h4>
               <ul>
-                <li
-                  ><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li
-                >
-                <li
-                  ><i class="bi bi-chevron-right"></i>
-                  <a href="#">About us</a></li
-                >
-                <li
-                  ><i class="bi bi-chevron-right"></i>
-                  <a href="#">Services</a></li
-                >
+                <li>
+                  <i class="bi bi-chevron-right"></i> <a href="/">Inicio</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="/about-us">Nosotros</a>
+                </li>
                 <li
                   ><i class="bi bi-chevron-right"></i>
-                  <a href="#">Terms of service</a></li
-                >
-                <li
-                  ><i class="bi bi-chevron-right"></i>
-                  <a href="#">Privacy policy</a></li
+                  <a href="/contact">Contacto</a></li
                 >
               </ul>
             </div>
@@ -109,39 +107,35 @@
             <div class="col-lg-4 col-md-6 footer-contact">
               <h4>Información de contacto</h4>
               <p>
-                A108 Adam Street <br />
-                New York, NY 535022<br />
-                United States <br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
+                <strong><i class="bi bi-pin-fill"></i> Dirección:</strong> Calle Santa Cecilia 12001 (Av. San Carlos)<br />
+                Huancayo - Junín<br />
+                Perú<br />
+                <strong><i class="bi bi-phone-fill"></i> Teléfono:</strong> +51 989254899<br />
+                <strong><i class="bi bi-envelope-fill"></i> Correo electrónico:</strong> sercontssac@gmail.com<br />
               </p>
 
               <div class="social-links">
                 <a
-                  href="#"
-                  class="twitter"
-                  ><i class="bi bi-twitter"></i
-                ></a>
-                <a
-                  href="#"
+                  href="https://www.facebook.com/people/Serconts-SAC/100063568271642/"
                   class="facebook"
-                  ><i class="bi bi-facebook"></i
-                ></a>
+                  target="_blank"
+                >
+                  <i class="bi bi-facebook"></i>
+                </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/sercontssac/"
+                  target="_blank"
                   class="instagram"
-                  ><i class="bi bi-instagram"></i
-                ></a>
+                >
+                  <i class="bi bi-instagram"></i>
+                </a>
                 <a
-                  href="#"
-                  class="instagram"
-                  ><i class="bi bi-instagram"></i
-                ></a>
-                <a
-                  href="#"
+                  href="https://www.linkedin.com/company/serconts/"
+                  target="_blank"
                   class="linkedin"
-                  ><i class="bi bi-linkedin"></i
-                ></a>
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
               </div>
             </div>
           </div>
@@ -164,3 +158,12 @@
 <script>
   export default {}
 </script>
+
+<style>
+  .serconts-footer-presentacion h1 {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: #237c36;
+    margin: 1rem 0;
+  }
+</style>

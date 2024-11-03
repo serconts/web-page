@@ -37,7 +37,11 @@
                           riesgo de desastres, protegiendo comunidades y
                           fortaleciendo proyectos.
                         </p>
-                        <a class="btn btn-success btn-lg rounded-5">
+                        <a
+                          class="btn btn-success btn-lg rounded-5"
+                          href="https://wa.me/51989254899?text=Buen%20d%C3%ADa,%20solicito%20informaci%C3%B3n%20respecto%20a%20los%20servicios%20que%20brinda..."
+                          target="_blank"
+                        >
                           <i class="bi bi-whatsapp"></i>
                           Obtener más información
                         </a>
@@ -186,20 +190,18 @@
             <div class="col-md-6 col-lg-4">
               <div class="serconts-servicio mb-3">
                 <h2>Consultoría</h2>
-                <p>
-                  Elaboración de expedientes técnicos, evaluación y análisis de
-                  riesgos (EVAR y ADR), planes de gestión de riesgos de
-                  desastres y ensayos de laboratorio.
-                </p>
-                <a class="btn btn-success rounded-5">
-                  Conoce más <i class="bi bi-arrow-right"></i>
-                </a>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-3">
-              <div class="serconts-servicio">
-                <h2>Cursos de capacitación</h2>
-                <p></p>
+                <ul>
+                  <li> Elaboración de expedientes técnicos.</li>
+                  <li>
+                    Informes de evaluación y análisis de riesgos (EVAR y ADR).
+                  </li>
+                  <li>
+                    Formulación de planes de gestión de riesgos de desastres.
+                  </li>
+                  <li> Topografía en general.</li>
+                  <li> Ensayos de laboratorio en mecánica de suelos.</li>
+                  <li> Estudios ambientales.</li>
+                </ul>
                 <a class="btn btn-success rounded-5">
                   Conoce más <i class="bi bi-arrow-right"></i>
                 </a>
@@ -208,6 +210,15 @@
             <div class="col-md-6 col-lg-4 mb-3">
               <div class="serconts-servicio">
                 <h2>Ejecución de obra</h2>
+                <p></p>
+                <a class="btn btn-success rounded-5">
+                  Conoce más <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <div class="serconts-servicio">
+                <h2>Cursos de capacitación</h2>
                 <p></p>
                 <a class="btn btn-success rounded-5">
                   Conoce más <i class="bi bi-arrow-right"></i>
@@ -230,9 +241,11 @@
           </p>
           <a
             class="cta-btn"
-            href="#"
-            >Call To Action</a
+            target="_blank"
+            href="https://wa.me/51989254899?text=Buen%20d%C3%ADa,%20solicito%20informaci%C3%B3n%20respecto%20a%20los%20servicios%20que%20brinda..."
           >
+            CONTÁCTANOS
+          </a>
         </div>
       </section>
 
