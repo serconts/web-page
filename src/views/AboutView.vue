@@ -1,59 +1,66 @@
 <template>
   <div>
-    <!-- ======= Breadcrumbs ======= -->
+    <div
+      class="clearfix"
+      style="margin-top: 5rem"
+    ></div>
     <section
-      id="breadcrumbs"
-      class="breadcrumbs"
+      id="call-to-action"
+      style="
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+          url(https://i.postimg.cc/J79BJS1p/IMG-8325.jpg) no-repeat fixed center
+            top;
+        background-size: cover;
+      "
     >
-      <div class="container">
-        <ol>
-          <li><a href="/">Inicio</a></li>
-        </ol>
-        <h2>Nosotros</h2>
-      </div> </section
-    ><!-- End Breadcrumbs -->
-
-    <!-- ======= Call To Action Section ======= -->
-    <section id="call-to-action">
       <div class="container text-center">
-        <h3>NOSOTROS</h3>
-      </div> </section
-    ><!-- End Call To Action Section -->
+        <h3>Nosotros</h3>
+        <p>
+          Somos una empresa especializada en proyectos con enfoque en gestión
+          del riesgo de desastres.
+        </p>
+      </div>
+    </section>
 
-          <!-- ======= Services Section ======= -->
-          <section id="services">
-        <div class="container">
-          <header class="section-header wow fadeInUp">
-            <h3>SERCONTS S.A.C.</h3>
-            <p
-              >Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
-              partiendo abhorreant vituperatoribus, ad pro quaestio laboramus.
-              Ei ubique vivendum pro. At ius nisl accusam lorenta zanos
-              paradigno tridexa panatarel.</p
-            >
-          </header>
-        </div> </section
-      ><!-- End Services Section -->
+    <section id="services">
+      <div class="container">
+        <header class="section-header wow fadeInUp">
+          <h3>SERCONTS S.A.C.</h3>
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <p>
+                <b>SERCONTS S.A.C.</b> nace en Perú como una empresa joven que responde a la
+                necesidad de crear infraestructuras seguras, sostenibles y
+                tecnológicamente avanzadas, integrando innovación y respeto al medio
+                ambiente en cada proyecto. Comprometidos con los más rigurosos
+                estándares de gestión de riesgos de desastres, nos enfocamos en
+                superar las expectativas de nuestras comunidades y clientes mediante
+                una colaboración estrecha, garantizando calidad, eficiencia y
+                seguridad en cada etapa del proceso de construcción. Aprovechamos
+                nuestra flexibilidad para adaptarnos a las demandas del mercado y
+                aplicar prácticas modernas, estableciendo nuevas referencias en el
+                sector y contribuyendo al desarrollo de un Perú más seguro y
+                preparado para el futuro.
+              </p>
+            </div>
+          </div>
+        </header>
+      </div> </section
+    ><!-- End Services Section -->
 
     <!-- ======= About Us Section ======= -->
     <section id="about">
       <div class="container">
         <header class="section-header">
           <h3>Misión y visión</h3>
-          <p
-            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.</p
-          >
         </header>
 
-        <div class="row about-cols">
-          <div class="col-md-6">
+        <div class="row about-cols justify-content-center">
+          <div class="col-md-4">
             <div class="about-col">
               <div class="img">
                 <img
-                  src="/assets/img/about-mission.jpg"
+                  src="https://i.postimg.cc/vm6J11Xq/mision.jpg"
                   alt=""
                   class="img-fluid"
                 />
@@ -61,20 +68,21 @@
               </div>
               <h2 class="title">Misión</h2>
               <p style="text-align: center; font-style: italic">
-                "Ser la empresa de construcción líder en Perú, reconocida por
-                nuestra innovación tecnológica, compromiso ambiental y
-                excelencia en la gestión de riesgos de desastres, estableciendo
-                nuevos estándares de sostenibilidad, seguridad y eficiencia en
-                la industria."
+                "Diseñar y construir infraestructuras seguras, sostenibles y
+                tecnológicamente avanzadas en Perú. Integramos prácticas
+                innovadoras y respetuosas con el medio ambiente, con rigurosos
+                estándares de gestión de riesgos. Colaboramos estrechamente con
+                comunidades y clientes para garantizar calidad, eficiencia y
+                seguridad en cada etapa del proceso de construcción."
               </p>
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-4">
             <div class="about-col">
               <div class="img">
                 <img
-                  src="/assets/img/about-vision.jpg"
+                  src="https://i.postimg.cc/zvnW3kRz/vision.jpg"
                   alt=""
                   class="img-fluid"
                 />
@@ -82,21 +90,18 @@
               </div>
               <h2 class="title">Visión</h2>
               <p style="text-align: center; font-style: italic">
-                "Nuestra misión es diseñar y construir infraestructuras seguras,
-                sostenibles y tecnológicamente avanzadas en Perú. Nos
-                comprometemos a integrar prácticas innovadoras y respetuosas con
-                el medio ambiente en todos nuestros proyectos, mientras
-                implementamos rigurosos estándares de gestión de riesgos de
-                desastres. Trabajamos estrechamente con nuestras comunidades y
-                clientes para superar sus expectativas, asegurando la calidad,
-                eficiencia y seguridad en cada etapa del proceso de
-                construcción."
+                "Ser la empresa de construcción líder en Perú, reconocida por
+                nuestra innovación tecnológica, compromiso ambiental y
+                excelencia en la gestión de riesgos de desastres, estableciendo
+                nuevos estándares de sostenibilidad, seguridad y eficiencia en
+                la industria, mientras generamos un impacto positivo en nuestras
+                comunidades y fortalecemos el desarrollo del país."
               </p>
             </div>
           </div>
         </div>
-      </div> </section
-    ><!-- End About Us Section -->
+      </div>
+    </section>
   </div>
 </template>
 <script>

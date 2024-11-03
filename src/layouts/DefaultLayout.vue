@@ -107,7 +107,7 @@
             <div class="col-lg-4 col-md-6 footer-contact">
               <h4>Información de contacto</h4>
               <p>
-                <strong><i class="bi bi-pin-fill"></i> Dirección:</strong> Calle Santa Cecilia 12001 (Av. San Carlos)<br />
+                <strong><i class="bi bi-pin-fill"></i> Dirección:</strong> Pj. Cesar A. Salaverry  MZ.B LT.12- Av. San Carlos.<br />
                 Huancayo - Junín<br />
                 Perú<br />
                 <strong><i class="bi bi-phone-fill"></i> Teléfono:</strong> +51 989254899<br />

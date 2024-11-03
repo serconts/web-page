@@ -202,7 +202,10 @@
                   <li> Ensayos de laboratorio en mecánica de suelos.</li>
                   <li> Estudios ambientales.</li>
                 </ul>
-                <a class="btn btn-success rounded-5">
+                <a
+                  class="btn btn-success rounded-5"
+                  href="/about-us"
+                >
                   Conoce más <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -210,8 +213,16 @@
             <div class="col-md-6 col-lg-4 mb-3">
               <div class="serconts-servicio">
                 <h2>Ejecución de obra</h2>
-                <p></p>
-                <a class="btn btn-success rounded-5">
+                <ul>
+                  <li>Edificaciones.</li>
+                  <li>Infraestructuras blandas.</li>
+                  <li>Obras de arte.</li>
+                  <li>Obras de telecomunicaciones.</li>
+                </ul>
+                <a
+                  class="btn btn-success rounded-5"
+                  href="/about-us"
+                >
                   Conoce más <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -219,8 +230,16 @@
             <div class="col-md-6 col-lg-4 mb-3">
               <div class="serconts-servicio">
                 <h2>Cursos de capacitación</h2>
-                <p></p>
-                <a class="btn btn-success rounded-5">
+                <ul>
+                  <li>Curso en gestión del riesgo de desastres.</li>
+                  <li>ArcGis Pro aplicado a la GRD.</li>
+                  <li>Revit.</li>
+                  <li>Civil 3d aplicado a diseño en carreteras.</li>
+                </ul>
+                <a
+                  class="btn btn-success rounded-5"
+                  href="/about-us"
+                >
                   Conoce más <i class="bi bi-arrow-right"></i>
                 </a>
               </div>
@@ -232,19 +251,18 @@
       <!-- ======= Call To Action Section ======= -->
       <section id="call-to-action">
         <div class="container text-center">
-          <h3>Call To Action</h3>
+          <h3>Proyectos innovadores y sostenibles</h3>
           <p>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.
+            Te invitamos a conocer más sobre nuestros proyectos innovadores y
+            sostenibles en nuestra página web. ¡Descubre cómo estamos
+            transformando la infraestructura en Perú!
           </p>
           <a
             class="cta-btn"
             target="_blank"
-            href="https://wa.me/51989254899?text=Buen%20d%C3%ADa,%20solicito%20informaci%C3%B3n%20respecto%20a%20los%20servicios%20que%20brinda..."
+            href="https://www.facebook.com/people/Serconts-SAC/100063568271642/"
           >
-            CONTÁCTANOS
+            Conocer más
           </a>
         </div>
       </section>
@@ -254,6 +272,54 @@
           <header class="section-header">
             <h3>Nuestros clientes</h3>
           </header>
+          <div class="serconts-clientes">
+            <div class="serconts-clientes-logos">
+              <div>
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.postimg.cc/kMt3Hv31/logo.png"
+                    alt="Serconts"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.postimg.cc/3RTM587k/ronap.png"
+                    alt="Serconts"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.postimg.cc/3wpMc4MM/luriigancho.jpg"
+                    alt="Serconts"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href=""
+                  target="_blank"
+                >
+                  <img
+                    src="https://i.postimg.cc/y82hNWD8/dcc.png"
+                    alt="Serconts"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
@@ -295,6 +361,18 @@
     .serconts-banner h2 {
       font-size: 1rem;
     }
+  }
+
+  .serconts-clientes .serconts-clientes-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .serconts-clientes img {
+    width: 15rem;
   }
 
   .btn-success {
