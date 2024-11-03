@@ -1,17 +1,6 @@
 <template>
   <div>
-    <!-- ======= Breadcrumbs ======= -->
-    <section
-      id="breadcrumbs"
-      class="breadcrumbs"
-    >
-      <div class="container">
-        <ol>
-          <li><a href="/">Inicio</a></li>
-        </ol>
-        <h2>Contacto</h2>
-      </div> </section
-    ><!-- End Breadcrumbs -->
+    <div class="clearfix" style="margin-top: 5rem"></div>
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action">

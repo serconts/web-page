@@ -1,17 +1,10 @@
-/**
-* Template Name: BizPage - v5.11.0
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
-  font-family: "Open Sans", sans-serif;
+  color: #666666;  font-family: "IBM Plex Sans Devanagari", sans-serif;
 }
 
 a {
@@ -39,7 +32,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -130,7 +122,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 1);
   height: 80px;
 }
 
@@ -424,7 +416,7 @@ h6 {
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #hero .carousel-container {
@@ -436,35 +428,6 @@ h6 {
   top: 70px;
   left: 50px;
   right: 50px;
-}
-
-#hero .container {
-  text-align: center;
-}
-
-#hero h2 {
-  color: #fff;
-  margin-bottom: 30px;
-  font-size: 48px;
-  font-weight: 700;
-}
-
-@media (max-width: 768px) {
-  #hero h2 {
-    font-size: 28px;
-  }
-}
-
-#hero p {
-  width: 80%;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
-
-@media (min-width: 1024px) {
-  #hero p {
-    width: 60%;
-  }
 }
 
 #hero .carousel-fade {
